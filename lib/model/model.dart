@@ -5,6 +5,6 @@ class TodoModel {
   TodoModel({
     required this.title,
     required this.desc,
-    required this.done,
+    this.done =false,
   });
 }
